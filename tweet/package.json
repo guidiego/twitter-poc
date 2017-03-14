@@ -1,0 +1,13 @@
+{
+  "name": "gandalf",
+  "version": "1.0.0",
+  "description": "a simple permission service",
+  "main": "index.js",
+  "author": "Guilherme Diego <guidiego.expgames@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.8.7"
+  }
+}
