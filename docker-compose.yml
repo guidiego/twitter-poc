@@ -35,10 +35,10 @@ services:
             - mongo:mongo
         depends_on:
             - mongo
-    client:
-        build: ./client
-        ports:
-            - 5000:5000
+    # client:
+    #     build: ./client
+    #     ports:
+    #         - 5000:5000
     mongo:
         image: mongo
         ports:
